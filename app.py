@@ -3,7 +3,7 @@ from kafka import KafkaProducer
 import json
 
 app = Flask(__name__)
-
+##test
 # Configure Kafka producer
 producer = KafkaProducer(
     bootstrap_servers='my-cluster-kafka-bootstrap:9092',
